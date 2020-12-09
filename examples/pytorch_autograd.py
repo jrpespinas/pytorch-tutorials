@@ -35,4 +35,4 @@ for t in range(2000):
         c.grad = None
         d.grad = None
 
-print(f'Result: y={a} + {b}x + {c}x ^ 2 + {d}x ^ 3)
+print(f'Result: y={a} + {b}x + {c}x ^ 2 + {d}x ^ 3')
