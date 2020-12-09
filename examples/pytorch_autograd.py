@@ -4,7 +4,7 @@ import torch
 dtype = torch.float
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
-x = torch.linspace(-math.pi, math.pi, device=device, dtype=dtype)
+x = torch.linspace(-math.pi, math.pi, 2000, device=device, dtype=dtype)
 y = torch.sin(x)
 
 # `requires_grad=True` indicates we want gradient computation
